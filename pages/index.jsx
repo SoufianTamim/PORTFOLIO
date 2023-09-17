@@ -42,25 +42,22 @@ const Index = () => {
                 </div>
                 <div className="description">
                   <div>
-                    <p>I'm based in Tangier, Morocco, and I am a web developer specializing in PHP, 
-                      Laravel, and React. I have a wealth of experience in web development and am 
-                      particularly passionate about building dynamic web applications. I would love 
-                      to discuss how I can contribute to your company and bring my expertise to your team.</p>
+                    <p>I'm based in Tangier, Morocco, and I am a web developer specializing in PHP, Laravel, and React. I have a wealth of experience in web development and am particularly passionate about building dynamic web applications. I would love to discuss how I can contribute to your company and bring my expertise to your team.</p>
                   </div>
                   <div className="social-links">
+                    <a target="_blank" rel="nofollow" href="#">
+                      <i aria-hidden="true" className="fab fa-linkedin" />
+                    </a>
                     <a target="_blank" rel="nofollow" href="#">
                       <i aria-hidden="true" className="fab fa-twitter" />
                     </a>
                     <a target="_blank" rel="nofollow" href="#">
-                      <i aria-hidden="true" className="fab fa-dribbble" />
-                    </a>
-                    <a target="_blank" rel="nofollow" href="#">
-                      <i aria-hidden="true" className="fab fa-behance" />
+                      <i aria-hidden="true" className="fab fa-github" />
                     </a>
                   </div>
                 </div>
                 <div className="bts">
-                  <a target="_blank" href="https://drive.google.com/" className="btn">
+                  <a target="_blank" href="https://drive.google.com/file/d/1aNm8K2AXX7ziAKhYIxS7VFzbzkt4j7gb/view?usp=drive_link" className="btn">
                     <span>Download CV</span>
                   </a>
                   <a href="#skills-section" className="btn-lnk">
