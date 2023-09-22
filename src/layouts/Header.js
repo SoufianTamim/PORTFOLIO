@@ -147,26 +147,6 @@ const Header = () => {
                               <a
                                 className="splitting-text-anim-2"
                                 data-splitting="chars"
-                                href="/#testimonials-sec
-                                onClick={() => linkClick()}tion"
-                              >
-                                Testimonials
-                              </a>
-                            </li>
-                            <li className="menu-item">
-                              <a
-                                className="splitting-text-anim-2"
-                                data-splitting="chars"
-                                href="/#pricing-section"
-                                onClick={() => linkClick()}
-                              >
-                                Pricing
-                              </a>
-                            </li>
-                            <li className="menu-item">
-                              <a
-                                className="splitting-text-anim-2"
-                                data-splitting="chars"
                                 href="/#blog-section"
                                 onClick={() => linkClick()}
                               >
@@ -183,7 +163,7 @@ const Header = () => {
                                 Contact
                               </a>
                             </li>
-                            <li
+                            {/* <li
                               className={`menu-item menu-item-has-children has-children ${
                                 pageToggle ? "opened" : "closed"
                               }`}
@@ -255,34 +235,19 @@ const Header = () => {
                                   </Link>
                                 </li>
                               </ul>
-                            </li>
+                            </li> */}
                           </ul>
                         </div>
                         {/* social */}
                         <div className="menu-social-links">
-                          <a
-                            href="http://dribbble.com"
-                            target="blank"
-                            className="scrolla-element-anim-1"
-                            title="dribbble"
-                          >
-                            <i className="fab fa-dribbble" />
+                          <a target="_blank" rel="nofollow" className="scrolla-element-anim-1" href="https://www.linkedin.com/in/soufian-tamim/">
+                            <i aria-hidden="true" className="fab fa-linkedin" />
                           </a>
-                          <a
-                            href="http://twitter.com"
-                            target="blank"
-                            className="scrolla-element-anim-1"
-                            title="twitter"
-                          >
-                            <i className="fab fa-twitter" />
+                          <a target="_blank" rel="nofollow" className="scrolla-element-anim-1" href="#">
+                            <i aria-hidden="true" className="fab fa-twitter" />
                           </a>
-                          <a
-                            href="http://behance.com"
-                            target="blank"
-                            className="scrolla-element-anim-1"
-                            title="behance"
-                          >
-                            <i className="fab fa-behance" />
+                          <a target="_blank" rel="nofollow" className="scrolla-element-anim-1" href="https://github.com/SoufianTamim">
+                            <i aria-hidden="true" className="fab fa-github" />
                           </a>
                         </div>
                         <div className="v-line-block">

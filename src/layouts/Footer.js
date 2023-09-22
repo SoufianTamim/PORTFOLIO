@@ -9,15 +9,15 @@ const Footer = () => {
                 className="social-links scrolla-element-anim-1 scroll-animate"
                 data-animate="active"
               >
-                <a target="_blank" rel="nofollow" href="http://twitter.com">
-                  <i aria-hidden="true" className="fab fa-twitter" />
-                </a>
-                <a target="_blank" rel="nofollow" href="http://dribble.com">
-                  <i aria-hidden="true" className="fab fa-dribbble" />
-                </a>
-                <a target="_blank" rel="nofollow" href="http://behance.com">
-                  <i aria-hidden="true" className="fab fa-behance" />
-                </a>
+                <a target="_blank" rel="nofollow" href="https://www.linkedin.com/in/soufian-tamim/">
+                      <i aria-hidden="true" className="fab fa-linkedin" />
+                    </a>
+                    <a target="_blank" rel="nofollow" href="#">
+                      <i aria-hidden="true" className="fab fa-twitter" />
+                    </a>
+                    <a target="_blank" rel="nofollow" href="https://github.com/SoufianTamim">
+                      <i aria-hidden="true" className="fab fa-github" />
+                    </a>
               </div>
             </div>
             <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
@@ -25,7 +25,7 @@ const Footer = () => {
                 className="copyright-text align-center scrolla-element-anim-1 scroll-animate"
                 data-animate="active"
               >
-                © 2022 <strong>Luique</strong>. All rights reserved
+                © 2023 <strong>TAMIM</strong>. All rights reserved
               </div>
             </div>
             <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
@@ -33,7 +33,7 @@ const Footer = () => {
                 className="copyright-text align-right scrolla-element-anim-1 scroll-animate"
                 data-animate="active"
               >
-                Developed by <strong>bslthemes</strong>
+                Developed by <strong>SOUFIAN TAMIM</strong>
               </div>
             </div>
           </div>

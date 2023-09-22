@@ -48,37 +48,12 @@ const PortfolioIsotope = ({ noViewMore }) => {
           </a>
           <a
             className={`c-pointer lui-subtitle ${activeBtn(
-              "sorting-ui-ux-design"
-            )}`}
-            onClick={handleFilterKeyChange("sorting-ui-ux-design")}
-            data-href=".sorting-ui-ux-design"
-          >
-            UI UX Design
-          </a>
-          <a
-            className={`c-pointer lui-subtitle ${activeBtn("sorting-photo")}`}
-            onClick={handleFilterKeyChange("sorting-photo")}
-            data-href=".sorting-photo"
-          >
-            Photography
-          </a>
-          <a
-            className={`c-pointer lui-subtitle ${activeBtn(
               "sorting-development"
             )}`}
             onClick={handleFilterKeyChange("sorting-development")}
             data-href=".sorting-development"
           >
-            Development
-          </a>
-          <a
-            className={`c-pointer lui-subtitle ${activeBtn(
-              "sorting-branding"
-            )}`}
-            onClick={handleFilterKeyChange("sorting-branding")}
-            data-href=".sorting-branding"
-          >
-            Branding
+            Web Development
           </a>
         </div>
         <div className="works-items works-masonry-items row">
@@ -349,7 +324,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
         </div>
         {!noViewMore && (
           <div className="load-more-link">
-            <Link legacyBehavior href="/works">
+            <Link legacyBehavior  href="https://github.com/SoufianTamim?tab=repositories" target="_blank" >
               <a
                 className="btn scrolla-element-anim-1 scroll-animate"
                 data-animate="active"

@@ -2,6 +2,7 @@ import Head from "next/head";
 import { Fragment, useEffect, useState } from "react";
 import PreLoader from "../src/layouts/PreLoader";
 import "../styles/globals.css";
+
 const App = ({ Component, pageProps }) => {
   const [loader, setLoader] = useState(true);
   useEffect(() => {
@@ -18,7 +19,7 @@ const App = ({ Component, pageProps }) => {
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="HandheldFriendly" content="true" />
-        <meta name="author" content="bslthemes" />
+        <meta name="author" content="SOUFIAN TAMIM" />
         {/* Fonts */}
         <link
           rel="stylesheet"
@@ -82,8 +83,9 @@ const App = ({ Component, pageProps }) => {
           media="all"
         />
         {/* Favicon */}
-        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-        <link rel="icon" href="favicon.ico" type="image/x-icon" />
+        <link rel="shortcut icon" type="image/x-icon" href="../public/assets/logo.png" />
+        <link rel="icon" type="image/x-icon" href="../public/assets/logo.png" />
+
       </Head>
       {loader && <PreLoader />}
       <Component {...pageProps} />

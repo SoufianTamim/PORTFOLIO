@@ -62,7 +62,7 @@ const WorkSingle = () => {
               <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4 align-right">
                 <a
                   target="_blank"
-                  href="https://bslthemes.com"
+                  href="https://tamimsoufian.com"
                   className="btn scrolla-element-anim-1 scroll-animate"
                   data-animate="active"
                 >
@@ -82,7 +82,7 @@ const WorkSingle = () => {
               className="img js-parallax"
               style={{
                 backgroundImage:
-                  "url(https://luique.bslthemes.com/wp-content/uploads/2021/11/single4.jpg)",
+                  "",
               }}
             />
           </div>

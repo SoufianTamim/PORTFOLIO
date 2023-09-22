@@ -42,16 +42,16 @@ const Index = () => {
                 </div>
                 <div className="description">
                   <div>
-                    <p>I'm based in Tangier, Morocco, and I am a web developer specializing in PHP, Laravel, and React. I have a wealth of experience in web development and am particularly passionate about building dynamic web applications. I would love to discuss how I can contribute to your company and bring my expertise to your team.</p>
+                    <p>I am a web developer specializing in PHP, Laravel, and React. I have a wealth of experience in web development and am particularly passionate about building dynamic web applications. I would love to discuss how I can contribute to your company and bring my expertise to your team.</p>
                   </div>
                   <div className="social-links">
-                    <a target="_blank" rel="nofollow" href="#">
+                    <a target="_blank" rel="nofollow" href="https://www.linkedin.com/in/soufian-tamim/">
                       <i aria-hidden="true" className="fab fa-linkedin" />
                     </a>
                     <a target="_blank" rel="nofollow" href="#">
                       <i aria-hidden="true" className="fab fa-twitter" />
                     </a>
-                    <a target="_blank" rel="nofollow" href="#">
+                    <a target="_blank" rel="nofollow" href="https://github.com/SoufianTamim">
                       <i aria-hidden="true" className="fab fa-github" />
                     </a>
                   </div>
@@ -67,7 +67,7 @@ const Index = () => {
                 </div>
               </div>
               <div className="slide scrolla-element-anim-1 scroll-animate" data-animate="active">
-                <img decoding="async" src="assets/images/profile2.png" alt="<b>Tamim</b> Soufian" />
+                <img decoding="async" src="assets/images/profile2.png" alt="my image" />
                 <span className="circle circle-1" />
                 <span
                   className="circle img-1"
@@ -147,10 +147,7 @@ const Index = () => {
                   <div className="lui-text">
                     <div> Web designers craft the overall vision &amp; plan for a website layout. Professional logo development: Business, Company, or Personal. </div>
                   </div>
-                  <a href="#pricing-section" className="lnk">
-                    {" "}
-                    See Pricing{" "}
-                  </a>
+                 
                   <div
                     className="image"
                     style={{
@@ -162,21 +159,16 @@ const Index = () => {
               <SwiperSlide className="swiper-slide">
                 <div className="services-item">
                   <div className="lui-subtitle">
-                    <span> Apps Development </span>
+                    <span> Web Development </span>
                   </div>
                   <div className="icon" />
                   <h5 className="lui-title">
-                    <span> iOS &amp; Android </span>
+                    <span>  Front-end web development </span>
                   </h5>
                   <div className="lui-text">
-                    <div>
-                      <p>Design Software applications to run on mobile devices. Modern and mobile-ready application that will help you reach all of your marketing.</p>
-                    </div>
+                    <div> provide top-notch frontend web development services, crafting visually appealing and user-friendly websites to help businesses thrive online.</div>
                   </div>
-                  <a href="#pricing-section" className="lnk">
-                    {" "}
-                    See Pricing{" "}
-                  </a>
+                  
                   <div
                     className="image"
                     style={{
@@ -188,19 +180,15 @@ const Index = () => {
               <SwiperSlide className="swiper-slide">
                 <div className="services-item">
                   <div className="lui-subtitle">
-                    <span> Game Development </span>
+                    <span> Web Development </span>
                   </div>
                   <div className="icon" />
                   <h5 className="lui-title">
-                    <span> Unity &amp; Unreal Engine </span>
+                    <span>  Back-end web development </span>
                   </h5>
                   <div className="lui-text">
-                    <div> Creating games &amp; describes the design, development and release of a game. Developing unique mobile android and ios games. </div>
+                    <div> provide professional backend web development services, ensuring robust server-side functionality to power your web applications.</div>
                   </div>
-                  <a href="#pricing-section" className="lnk">
-                    {" "}
-                    See Pricing{" "}
-                  </a>
                   <div
                     className="image"
                     style={{
@@ -212,45 +200,15 @@ const Index = () => {
               <SwiperSlide className="swiper-slide">
                 <div className="services-item">
                   <div className="lui-subtitle">
-                    <span> Advertising </span>
+                    <span> Web Development </span>
                   </div>
                   <div className="icon" />
                   <h5 className="lui-title">
-                    <span> Google Ads </span>
+                    <span>  Wordpress development </span>
                   </h5>
                   <div className="lui-text">
-                    <div> Advertising services include: Google search result pages, gmails, YouTube and other websites participated in Google Ads program. </div>
+                    <div>provide professional WordPress development services using Divi, Elementor, and WooCommerce to create stunning and functional websites tailored to your needs.</div>
                   </div>
-                  <a href="#pricing-section" className="lnk">
-                    {" "}
-                    See Pricing{" "}
-                  </a>
-                  <div
-                    className="image"
-                    style={{
-                      backgroundImage: "url(assets/images/pat-2.png)",
-                    }}
-                  />
-                </div>
-              </SwiperSlide>
-              <SwiperSlide className="swiper-slide">
-                <div className="services-item">
-                  <div className="lui-subtitle">
-                    <span> Music Writing </span>
-                  </div>
-                  <div className="icon" />
-                  <h5 className="lui-title">
-                    <span> Sound Track </span>
-                  </h5>
-                  <div className="lui-text">
-                    <div>
-                      <p>Music copying, writing, creating, transcription and composition services.</p>
-                    </div>
-                  </div>
-                  <a href="#pricing-section" className="lnk">
-                    {" "}
-                    See Pricing{" "}
-                  </a>
                   <div
                     className="image"
                     style={{
@@ -297,7 +255,7 @@ const Index = () => {
                     </h6>
                     <div className="text">
                       <div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p>strong proficiency in PHP, capable of developing dynamic web applications and websites with ease.</p>
                       </div>
                     </div>
                     <div className="dots">
@@ -313,24 +271,25 @@ const Index = () => {
                   </div>
                   <div className="skills-item scrolla-element-anim-1 scroll-animate" data-animate="active">
                     <h6 className="name">
-                      <span> Python </span>
+                      <span> WordPress </span>
                     </h6>
                     <div className="text">
                       <div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p>strong skill in WordPress, proficient in designing and managing websites with a keen eye for customization and functionality.</p>
                       </div>
                     </div>
                     <div className="dots">
-                      <div className="dot" style={{ width: "75%" }}>
+                      <div className="dot" style={{ width: "90%" }}>
                         <span />
                       </div>
                     </div>
                     <div className="value">
                       <span className="num">
-                        75 <span>%</span>
+                        90 <span>%</span>
                       </span>
                     </div>
                   </div>
+                
                 </div>
               </div>
               <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4">
@@ -341,7 +300,7 @@ const Index = () => {
                     </h6>
                     <div className="text">
                       <div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p>strong proficiency in JavaScript and can confidently tackle a wide range of web development tasks.</p>
                       </div>
                     </div>
                     <div className="dots">
@@ -361,17 +320,17 @@ const Index = () => {
                     </h6>
                     <div className="text">
                       <div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p>strong skill in React, proficient in building  responsive web apps with a deep understanding of its core concepts and components.</p>
                       </div>
                     </div>
                     <div className="dots">
-                      <div className="dot" style={{ width: "70%" }}>
+                      <div className="dot" style={{ width: "75%" }}>
                         <span />
                       </div>
                     </div>
                     <div className="value">
                       <span className="num">
-                        70 <span>%</span>
+                        75 <span>%</span>
                       </span>
                     </div>
                   </div>
@@ -379,33 +338,34 @@ const Index = () => {
               </div>
               <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4">
                 <div className="skills-items">
-                  <div className="skills-item scrolla-element-anim-1 scroll-animate" data-animate="active">
+                <div className="skills-item scrolla-element-anim-1 scroll-animate" data-animate="active">
                     <h6 className="name">
-                      <span> WordPress </span>
+                      <span> HTML / CSS </span>
                     </h6>
                     <div className="text">
                       <div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p>strong proficiency in HTML and CSS, enabling  to create appealing and responsive web designs.</p>
                       </div>
                     </div>
                     <div className="dots">
-                      <div className="dot" style={{ width: "90%" }}>
+                      <div className="dot" style={{ width: "75%" }}>
                         <span />
                       </div>
                     </div>
                     <div className="value">
                       <span className="num">
-                        90 <span>%</span>
+                        75 <span>%</span>
                       </span>
                     </div>
                   </div>
+                  
                   <div className="skills-item scrolla-element-anim-1 scroll-animate" data-animate="active">
                     <h6 className="name">
-                      <span> Adobe XD </span>
+                      <span> LARAVEL </span>
                     </h6>
                     <div className="text">
                       <div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p>strong skill in Laravel, a popular PHP framework, allowing me to develop robust and efficient web applications with ease.</p>
                       </div>
                     </div>
                     <div className="dots">
@@ -646,9 +606,9 @@ const Index = () => {
         </div>
       </section>
       {/* Section - Pricing */}
-      <section className="lui-section lui-gradient-center" id="pricing-section">
+      {/* <section className="lui-section lui-gradient-center" id="pricing-section"> */}
         {/* Heading */}
-        <div className="lui-heading">
+        {/* <div className="lui-heading">
           <div className="container">
             <div className="m-titles align-center">
               <h2 className="m-title splitting-text-anim-1 scroll-animate" data-splitting="words" data-animate="active">
@@ -662,9 +622,9 @@ const Index = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* Pricing */}
-        <div className="v-line v-line-left">
+        {/* <div className="v-line v-line-left">
           <div className="container">
             <div className="pricing-items row">
               <div className="pricing-col col-xs-12 col-sm-6 col-md-6 col-lg-4">
@@ -826,7 +786,7 @@ const Index = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Section - Blog */}
       <section className="lui-section lui-gradient-top" id="blog-section">
         {/* Heading */}
@@ -982,7 +942,7 @@ const Index = () => {
                       <span> Address </span>
                     </div>
                     <div className="lui-text">
-                      <span> North Tower, Toronto, Canada </span>
+                      <span> Tangier, Morocco </span>
                     </div>
                   </div>
                   <div className="numbers-item scrolla-element-anim-1 scroll-animate" data-animate="active">
@@ -1004,7 +964,7 @@ const Index = () => {
                       <span> Email </span>
                     </div>
                     <div className="lui-text">
-                      <span> zoe.miller@mydomain.com </span>
+                      <span> <a href="mailto:job@tamimsoufian.com"> job@tamimsoufian.com </a> </span>
                     </div>
                   </div>
                   <div className="numbers-item scrolla-element-anim-1 scroll-animate" data-animate="active">
@@ -1015,7 +975,7 @@ const Index = () => {
                       <span> Phone </span>
                     </div>
                     <div className="lui-text">
-                      <span> +1 900 - 900 - 9000 </span>
+                       <span> <a href="tel:+212677846064"> +212 6 77 84 60 64 </a></span>
                     </div>
                   </div>
                 </div>
