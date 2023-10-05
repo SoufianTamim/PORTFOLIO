@@ -10,7 +10,7 @@ const App = ({ Component, pageProps }) => {
       setLoader(false);
     }, 500);
   }, []);
-
+  
   return (
     <Fragment>
       <Head>

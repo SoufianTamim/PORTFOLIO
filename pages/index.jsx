@@ -421,9 +421,9 @@ const Index = () => {
       {/* Section - Resume */}
       <Resume />
       {/* Section - Testimonials */}
-      <section className="lui-section lui-gradient-center" id="testimonials-section">
+      {/* <section className="lui-section lui-gradient-center" id="testimonials-section">
         {/* Heading */}
-        <div className="lui-heading">
+        {/* <div className="lui-heading">
           <div className="container">
             <div className="m-titles align-center">
               <h2 className="m-title splitting-text-anim-1 scroll-animate" data-splitting="words" data-animate="active">
@@ -437,9 +437,9 @@ const Index = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* Testimonials */}
-        <div className="v-line v-line-right">
+        {/* <div className="v-line v-line-right">
           <div className="container">
             <Swiper {...testimonialsSliderProps} className="swiper-container js-testimonials scrolla-element-anim-1 scroll-animate" data-animate="active">
               <SwiperSlide className="swiper-slide">
@@ -454,7 +454,7 @@ const Index = () => {
                   </div>
                   <div className="text lui-text">
                     <div>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                      <p>I had the pleasure of working with Soufian Tamim on a recent web development project, and I couldn't be happier with the results. Soufian's attention to detail and expertise in front-end and back-end development truly impressed me. The website he built for my business is not only visually stunning but also functions seamlessly. I highly recommend Soufian for any web development needs.</p>
                     </div>
                   </div>
                   <div className="info">
@@ -485,7 +485,7 @@ const Index = () => {
                   </div>
                   <div className="text lui-text">
                     <div>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                      <p>Soufian Tamim is a web development wizard! He took my vision for a complex e-commerce site and turned it into a reality. Soufian's ability to write clean, efficient code and his dedication to meeting deadlines made the entire process smooth and stress-free. I'm extremely satisfied with his work and will definitely hire him again for future projects.</p>
                     </div>
                   </div>
                   <div className="info">
@@ -516,7 +516,7 @@ const Index = () => {
                   </div>
                   <div className="text lui-text">
                     <div>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                      <p>Working with Soufian Tamim was a game-changer for my online presence. His web development skills transformed my outdated website into a modern, user-friendly platform. Soufian's communication throughout the project was exceptional, and he was always willing to go the extra mile to ensure my satisfaction. I can't thank him enough for his talent and professionalism.</p>
                     </div>
                   </div>
                   <div className="info">
@@ -547,7 +547,7 @@ const Index = () => {
                   </div>
                   <div className="text lui-text">
                     <div>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                      <p>Soufian Tamim is a true web development genius! He took my vague ideas and turned them into a beautifully designed and fully functional website. Soufian's problem-solving abilities and coding expertise are second to none. He made sure every feature I wanted was implemented flawlessly. I couldn't have asked for a better web developer.</p>
                     </div>
                   </div>
                   <div className="info">
@@ -578,7 +578,7 @@ const Index = () => {
                   </div>
                   <div className="text lui-text">
                     <div>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                      <p>I had the pleasure of collaborating with Soufian Tamim on a web development project, and I was thoroughly impressed by his skills and dedication. Soufian not only created a stunning website but also optimized it for speed and performance. His attention to detail and commitment to delivering a high-quality product set him apart from other developers I've worked with. I highly recommend Soufian for any web development project.</p>
                     </div>
                   </div>
                   <div className="info">
@@ -603,8 +603,8 @@ const Index = () => {
               <span> Reviews </span>
             </div>
           </div>
-        </div>
-      </section>
+        </div> */}
+      {/* </section> */} 
       {/* Section - Pricing */}
       {/* <section className="lui-section lui-gradient-center" id="pricing-section"> */}
         {/* Heading */}
