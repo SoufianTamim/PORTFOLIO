@@ -7,6 +7,35 @@ import {
   servicesSliderProps,
   testimonialsSliderProps,
 } from "../src/sliderProps";
+
+const SendEmail = () => {
+      Email.send({
+        Host : "smtp.elasticemail.com",
+        Username : "tamim.soufian.solicode@gmail.com",
+        Password : "70D178ACADD0DBD76A3F21E22CC24372EB65",
+        To : 'job@tamimsoufian.com',
+        From : 'tamim.soufian.solicode@gmail.com',
+        Subject : "New contact from the portfolio",
+        Body : "NAME : " + document.getElementById('name').value +
+        " <br> EMAIL : " + document.getElementById('email').value +
+        " <br> SUBJECT : " +  document.getElementById('subject').value + 
+        " <br> MESSAGE : " + document.getElementById('message').value 
+
+        
+    }).then(
+   
+
+      message => alert(message)
+    );
+
+    console.log("NAME : " + document.getElementById('name').value +
+    " <br> EMAIL : " + document.getElementById('email').value +
+    " <br> SUBJECT : " +  document.getElementById('subject').value + 
+    " <br> MESSAGE : " + document.getElementById('message').value  )
+};
+
+
+
 const PortfolioIsotope = dynamic(
   () => import("../src/components/PortfolioIsotope"),
   {
@@ -14,6 +43,14 @@ const PortfolioIsotope = dynamic(
   }
 );
 const Index = () => {
+
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    SendEmail();
+  };
+
+
   return (
     <Layout pageClassName={"home"}>
       {/* Section - Hero Started */}
@@ -989,13 +1026,13 @@ const Index = () => {
                     }}
                   />
                   <div className="contacts-form">
-                    <form onSubmit={(e) => e.preventDefault()} id="cform">
+                    <form onSubmit={handleSubmit} id="cform">
                       <div className="row">
                         <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                           <div className="group">
                             <label>
                               Your Full Name <b>*</b>
-                              <input type="text" name="name" />
+                              <input type="text" name="name" id="name" />
                             </label>
                           </div>
                         </div>
@@ -1003,7 +1040,7 @@ const Index = () => {
                           <div className="group">
                             <label>
                               Your Email Address <b>*</b>
-                              <input type="email" name="email" />
+                              <input type="email"  id="email" name="email" />
                             </label>
                           </div>
                         </div>
@@ -1011,7 +1048,7 @@ const Index = () => {
                           <div className="group">
                             <label>
                               Your Subject <b>*</b>
-                              <input type="text" name="subject" />
+                              <input type="text"  name="subject" id="subject" />
                             </label>
                           </div>
                         </div>
@@ -1019,15 +1056,15 @@ const Index = () => {
                           <div className="group">
                             <label>
                               Your Message <b>*</b>
-                              <textarea name="message" defaultValue={""} />
+                              <textarea name="message"  id="message" defaultValue={""} />
                             </label>
                           </div>
                         </div>
                         <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 align-right">
                           <div className="terms-label">* Accept the terms and conditions.</div>
-                          <a href="#" className="btn" onclick="$('#cform').submit(); return false;">
-                            <span>Send Message</span>
-                          </a>
+                          
+                          <button type="submit" >Send Message</button>
+                          
                         </div>
                       </div>
                     </form>
@@ -1039,12 +1076,14 @@ const Index = () => {
               </div>
             </div>
             <div className="lui-bgtitle">
-              <span> Contact Me </span>
+             <span> Contact Me </span>
             </div>
           </div>
         </div>
       </section>
+      
     </Layout>
+    
   );
 };
 export default Index;

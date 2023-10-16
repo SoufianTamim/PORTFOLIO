@@ -85,7 +85,7 @@ const App = ({ Component, pageProps }) => {
         {/* Favicon */}
         <link rel="shortcut icon" type="image/x-icon" href="../public/assets/logo.png" />
         <link rel="icon" type="image/x-icon" href="../public/assets/logo.png" />
-
+        <script src="https://smtpjs.com/v3/smtp.js" defer></script>
       </Head>
       {loader && <PreLoader />}
       <Component {...pageProps} />
