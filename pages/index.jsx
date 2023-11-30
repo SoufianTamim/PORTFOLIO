@@ -94,7 +94,7 @@ const Index = () => {
                   </div>
                 </div>
                 <div className="bts">
-                  <a target="_blank" href="https://drive.google.com/file/d/1aNm8K2AXX7ziAKhYIxS7VFzbzkt4j7gb/view?usp=drive_link" className="btn">
+                  <a target="_blank" href="https://drive.usercontent.google.com/download?id=1ieZmSHAYCx31E7UWMLO0AGU1zRWhqsP7&export=download&authuser=0&confirm=t&uuid=e7b835ea-2cba-4829-ba4e-03a8a861d882&at=APZUnTXF6nWCi_of49J5tgFrwmR4:1701368265602" className="btn">
                     <span>Download CV</span>
                   </a>
                   <a href="#skills-section" className="btn-lnk">
@@ -184,7 +184,7 @@ const Index = () => {
                   <div className="lui-text">
                     <div> Web designers craft the overall vision &amp; plan for a website layout. Professional logo development: Business, Company, or Personal. </div>
                   </div>
-                 
+
                   <div
                     className="image"
                     style={{
@@ -200,12 +200,12 @@ const Index = () => {
                   </div>
                   <div className="icon" />
                   <h5 className="lui-title">
-                    <span>  Front-end web development </span>
+                    <span> Front-end web development </span>
                   </h5>
                   <div className="lui-text">
                     <div> provide top-notch frontend web development services, crafting visually appealing and user-friendly websites to help businesses thrive online.</div>
                   </div>
-                  
+
                   <div
                     className="image"
                     style={{
@@ -221,7 +221,7 @@ const Index = () => {
                   </div>
                   <div className="icon" />
                   <h5 className="lui-title">
-                    <span>  Back-end web development </span>
+                    <span> Back-end web development </span>
                   </h5>
                   <div className="lui-text">
                     <div> provide professional backend web development services, ensuring robust server-side functionality to power your web applications.</div>
@@ -241,7 +241,7 @@ const Index = () => {
                   </div>
                   <div className="icon" />
                   <h5 className="lui-title">
-                    <span>  Wordpress development </span>
+                    <span> Wordpress development </span>
                   </h5>
                   <div className="lui-text">
                     <div>provide professional WordPress development services using Divi, Elementor, and WooCommerce to create stunning and functional websites tailored to your needs.</div>
@@ -326,7 +326,6 @@ const Index = () => {
                       </span>
                     </div>
                   </div>
-                
                 </div>
               </div>
               <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4">
@@ -357,7 +356,7 @@ const Index = () => {
                     </h6>
                     <div className="text">
                       <div>
-                        <p>strong skill in React, proficient in building  responsive web apps with a deep understanding of its core concepts and components.</p>
+                        <p>strong skill in React, proficient in building responsive web apps with a deep understanding of its core concepts and components.</p>
                       </div>
                     </div>
                     <div className="dots">
@@ -375,13 +374,13 @@ const Index = () => {
               </div>
               <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4">
                 <div className="skills-items">
-                <div className="skills-item scrolla-element-anim-1 scroll-animate" data-animate="active">
+                  <div className="skills-item scrolla-element-anim-1 scroll-animate" data-animate="active">
                     <h6 className="name">
                       <span> HTML / CSS </span>
                     </h6>
                     <div className="text">
                       <div>
-                        <p>strong proficiency in HTML and CSS, enabling  to create appealing and responsive web designs.</p>
+                        <p>strong proficiency in HTML and CSS, enabling to create appealing and responsive web designs.</p>
                       </div>
                     </div>
                     <div className="dots">
@@ -395,7 +394,7 @@ const Index = () => {
                       </span>
                     </div>
                   </div>
-                  
+
                   <div className="skills-item scrolla-element-anim-1 scroll-animate" data-animate="active">
                     <h6 className="name">
                       <span> LARAVEL </span>
@@ -460,7 +459,7 @@ const Index = () => {
       {/* Section - Testimonials */}
       {/* <section className="lui-section lui-gradient-center" id="testimonials-section">
         {/* Heading */}
-        {/* <div className="lui-heading">
+      {/* <div className="lui-heading">
           <div className="container">
             <div className="m-titles align-center">
               <h2 className="m-title splitting-text-anim-1 scroll-animate" data-splitting="words" data-animate="active">
@@ -475,8 +474,8 @@ const Index = () => {
             </div>
           </div>
         </div> */}
-        {/* Testimonials */}
-        {/* <div className="v-line v-line-right">
+      {/* Testimonials */}
+      {/* <div className="v-line v-line-right">
           <div className="container">
             <Swiper {...testimonialsSliderProps} className="swiper-container js-testimonials scrolla-element-anim-1 scroll-animate" data-animate="active">
               <SwiperSlide className="swiper-slide">
@@ -641,11 +640,11 @@ const Index = () => {
             </div>
           </div>
         </div> */}
-      {/* </section> */} 
+      {/* </section> */}
       {/* Section - Pricing */}
       {/* <section className="lui-section lui-gradient-center" id="pricing-section"> */}
-        {/* Heading */}
-        {/* <div className="lui-heading">
+      {/* Heading */}
+      {/* <div className="lui-heading">
           <div className="container">
             <div className="m-titles align-center">
               <h2 className="m-title splitting-text-anim-1 scroll-animate" data-splitting="words" data-animate="active">
@@ -660,8 +659,8 @@ const Index = () => {
             </div>
           </div>
         </div> */}
-        {/* Pricing */}
-        {/* <div className="v-line v-line-left">
+      {/* Pricing */}
+      {/* <div className="v-line v-line-left">
           <div className="container">
             <div className="pricing-items row">
               <div className="pricing-col col-xs-12 col-sm-6 col-md-6 col-lg-4">
@@ -1001,7 +1000,10 @@ const Index = () => {
                       <span> Email </span>
                     </div>
                     <div className="lui-text">
-                      <span> <a href="mailto:job@tamimsoufian.com"> job@tamimsoufian.com </a> </span>
+                      <span>
+                        {" "}
+                        <a href="mailto:job@tamimsoufian.com"> job@tamimsoufian.com </a>{" "}
+                      </span>
                     </div>
                   </div>
                   <div className="numbers-item scrolla-element-anim-1 scroll-animate" data-animate="active">
@@ -1012,7 +1014,10 @@ const Index = () => {
                       <span> Phone </span>
                     </div>
                     <div className="lui-text">
-                       <span> <a href="tel:+212677846064"> +212 6 77 84 60 64 </a></span>
+                      <span>
+                        {" "}
+                        <a href="tel:+212677846064"> +212 6 77 84 60 64 </a>
+                      </span>
                     </div>
                   </div>
                 </div>
@@ -1040,7 +1045,7 @@ const Index = () => {
                           <div className="group">
                             <label>
                               Your Email Address <b>*</b>
-                              <input type="email"  id="email" name="email" />
+                              <input type="email" id="email" name="email" />
                             </label>
                           </div>
                         </div>
@@ -1048,7 +1053,7 @@ const Index = () => {
                           <div className="group">
                             <label>
                               Your Subject <b>*</b>
-                              <input type="text"  name="subject" id="subject" />
+                              <input type="text" name="subject" id="subject" />
                             </label>
                           </div>
                         </div>
@@ -1056,15 +1061,14 @@ const Index = () => {
                           <div className="group">
                             <label>
                               Your Message <b>*</b>
-                              <textarea name="message"  id="message" defaultValue={""} />
+                              <textarea name="message" id="message" defaultValue={""} />
                             </label>
                           </div>
                         </div>
                         <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 align-right">
                           <div className="terms-label">* Accept the terms and conditions.</div>
-                          
-                          <button type="submit" >Send Message</button>
-                          
+
+                          <button type="submit">Send Message</button>
                         </div>
                       </div>
                     </form>
@@ -1076,14 +1080,12 @@ const Index = () => {
               </div>
             </div>
             <div className="lui-bgtitle">
-             <span> Contact Me </span>
+              <span> Contact Me </span>
             </div>
           </div>
         </div>
       </section>
-      
     </Layout>
-    
   );
 };
 export default Index;
