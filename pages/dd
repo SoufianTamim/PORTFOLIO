@@ -1,0 +1,16 @@
+const i = {
+  i.am: "a web developer",
+  i.love: ["family", "laravel", "coding", "Rap", "skydiving", "challenge", "what I've got"],
+  i.workWith: ["PHP", "JavaScript", "HTML", "CSS", "Laravel", "React"],
+  i.innovate: "Striving to bring innovation to web development challenges.",
+};
+
+
+
+
+
+
+
+
+
+

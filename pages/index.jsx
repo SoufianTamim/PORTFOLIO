@@ -79,7 +79,7 @@ const Index = () => {
                 </div>
                 <div className="description">
                   <div>
-                    <p>I am a web developer specializing in PHP, Laravel, and React. I have a wealth of experience in web development and am particularly passionate about building dynamic web applications. I would love to discuss how I can contribute to your company and bring my expertise to your team.</p>
+                    <p>I am a web developer specializing in PHP, Laravel, and React. I have a wealth of experience in web development and I am particularly passionate about building dynamic web applications. I would love to discuss how I can contribute to your company and bring my expertise to your team.</p>
                   </div>
                   <div className="social-links">
                     <a target="_blank" rel="nofollow" href="https://www.linkedin.com/in/soufian-tamim/">
@@ -104,7 +104,7 @@ const Index = () => {
                 </div>
               </div>
               <div className="slide scrolla-element-anim-1 scroll-animate" data-animate="active">
-                <img decoding="async" src="assets/images/profile2.png" alt="my image" />
+                <img decoding="async" src="assets/images/pro-2.png" alt="my image" />
                 <span className="circle circle-1" />
                 <span
                   className="circle img-1"
