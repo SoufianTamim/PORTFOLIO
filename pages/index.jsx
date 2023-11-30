@@ -826,7 +826,7 @@ const Index = () => {
       </section> */}
       {/* Section - Blog */}
       <section className="lui-section lui-gradient-top" id="blog-section">
-        {/* Heading */}
+        {/* Heading
         <div className="lui-heading">
           <div className="container">
             <div className="m-titles align-center">
@@ -842,7 +842,7 @@ const Index = () => {
             </div>
           </div>
         </div>
-        {/* Archive */}
+        Archive
         <div className="v-line v-line-right">
           <div className="container">
             <div className="blog-items row">
@@ -945,7 +945,7 @@ const Index = () => {
               <span> Blog </span>
             </div>
           </div>
-        </div>
+        </div> */}
       </section>
       {/* Section - Contacts */}
       <section className="lui-section lui-gradient-bottom" id="contact-section">
@@ -971,7 +971,7 @@ const Index = () => {
             <div className="row">
               <div className="col-xs-12 col-sm-12 col-md-5 col-lg-5">
                 <div className="numbers-items">
-                  <div className="numbers-item scrolla-element-anim-1 scroll-animate" data-animate="active">
+                  {/* <div className="numbers-item scrolla-element-anim-1 scroll-animate" data-animate="active">
                     <div className="icon">
                       <i aria-hidden="true" className="far fa-map" />
                     </div>
@@ -981,7 +981,7 @@ const Index = () => {
                     <div className="lui-text">
                       <span> Tangier, Morocco </span>
                     </div>
-                  </div>
+                  </div> */}
                   <div className="numbers-item scrolla-element-anim-1 scroll-animate" data-animate="active">
                     <div className="icon">
                       <i aria-hidden="true" className="far fa-user" />

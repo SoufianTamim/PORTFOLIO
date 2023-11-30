@@ -35,7 +35,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
   return (
     <Fragment>
       <div className="works-box">
-        <div
+        {/* <div
           className="filter-links scrolla-element-anim-1 scroll-animate"
           data-animate="active"
         >
@@ -55,42 +55,32 @@ const PortfolioIsotope = ({ noViewMore }) => {
           >
             Web Development
           </a>
-        </div>
+        </div> */}
         <div className="works-items works-masonry-items row">
           <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-branding sorting-photo ">
-            <div
-              className="works-item scrolla-element-anim-1 scroll-animate"
-              data-animate="active"
-            >
+            <div className="works-item scrolla-element-anim-1 scroll-animate" data-animate="active">
               <div className="image">
                 <div className="img">
                   <Link legacyBehavior href="/work-single">
                     <a>
-                      <img
-                        decoding="async"
-                        src="assets/images/work4.jpeg"
-                        alt="Zorro"
-                      />
+                      <img decoding="async" src="assets/images/work4.jpeg" alt="Zorro" />
                       <span className="overlay" />
                     </a>
                   </Link>
                 </div>
               </div>
               <div className="desc">
-                <span className="category"> Branding, Photography </span>
+                <span className="category"> Web Devlopement , Bike renting </span>
                 <h5 className="name">
                   <Link legacyBehavior href="/work-single">
-                    <a>Zorro</a>
+                    <a>T-Bike</a>
                   </Link>
                 </h5>
                 <div className="text">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore.
-                  </p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
                 </div>
-                <Link legacyBehavior href="/work-single">
-                  <a className="lnk">See project</a>
+                <Link legacyBehavior href="https://tbike.tamimsoufian.com/" target="_blank">
+                  <a className="lnk">See project online</a>
                 </Link>
               </div>
               <div
@@ -101,6 +91,8 @@ const PortfolioIsotope = ({ noViewMore }) => {
               />
             </div>
           </div>
+
+          {/* 
           <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-branding sorting-ui-ux-design ">
             <div
               className="works-item scrolla-element-anim-1 scroll-animate"
@@ -320,15 +312,12 @@ const PortfolioIsotope = ({ noViewMore }) => {
                 }}
               />
             </div>
-          </div>
+          </div> */}
         </div>
         {!noViewMore && (
           <div className="load-more-link">
-            <Link legacyBehavior  href="https://github.com/SoufianTamim?tab=repositories" target="_blank" >
-              <a
-                className="btn scrolla-element-anim-1 scroll-animate"
-                data-animate="active"
-              >
+            <Link legacyBehavior href="https://github.com/SoufianTamim?tab=repositories" target="_blank">
+              <a className="btn scrolla-element-anim-1 scroll-animate" data-animate="active">
                 <span>View More</span>
               </a>
             </Link>
