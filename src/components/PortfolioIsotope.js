@@ -23,9 +23,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
   });
   useEffect(() => {
     if (isotope.current) {
-      filterKey === "*"
-        ? isotope.current.arrange({ filter: `*` })
-        : isotope.current.arrange({ filter: `.${filterKey}` });
+      filterKey === "*" ? isotope.current.arrange({ filter: `*` }) : isotope.current.arrange({ filter: `.${filterKey}` });
     }
   }, [filterKey]);
   const handleFilterKeyChange = (key) => () => {
@@ -56,28 +54,38 @@ const PortfolioIsotope = ({ noViewMore }) => {
             Web Development
           </a>
         </div> */}
+
+        {/* 
+========================================================================================================================================
+========================================================================================================================================
+========================================================================================================================================
+========================================================================================================================================
+========================================================================================================================================
+========================================================================================================================================
+*/}
+
         <div className="works-items works-masonry-items row">
           <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-branding sorting-photo ">
             <div className="works-item scrolla-element-anim-1 scroll-animate" data-animate="active">
               <div className="image">
                 <div className="img">
-                  <Link legacyBehavior href="/work-single">
+                  <Link legacyBehavior href="https://tbike.tamimsoufian.com/">
                     <a>
-                      <img decoding="async" src="assets/images/work4.jpeg" alt="Zorro" />
+                      <img decoding="async" src="assets/images/sites/tbike.png" alt="tbike" />
                       <span className="overlay" />
                     </a>
                   </Link>
                 </div>
               </div>
               <div className="desc">
-                <span className="category"> Web Devlopement , Bike renting </span>
+                <span className="category"> Laravel , Bike renting </span>
                 <h5 className="name">
-                  <Link legacyBehavior href="/work-single">
+                  <Link legacyBehavior href="https://tbike.tamimsoufian.com/">
                     <a>T-Bike</a>
                   </Link>
                 </h5>
                 <div className="text">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                  <p>In my final year project, I skillfully employed Laravel to create a dynamic and secure website. From database integration to crafting intuitive user interfaces, every aspect reflects my commitment to excellence. The result is a seamlessly functional site that exceeds expectations in both performance and user satisfaction.</p>
                 </div>
                 <Link legacyBehavior href="https://tbike.tamimsoufian.com/" target="_blank">
                   <a className="lnk">See project online</a>
@@ -93,40 +101,38 @@ const PortfolioIsotope = ({ noViewMore }) => {
           </div>
 
           {/* 
+========================================================================================================================================
+========================================================================================================================================
+========================================================================================================================================
+========================================================================================================================================
+========================================================================================================================================
+========================================================================================================================================
+*/}
+
           <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-branding sorting-ui-ux-design ">
-            <div
-              className="works-item scrolla-element-anim-1 scroll-animate"
-              data-animate="active"
-            >
+            <div className="works-item scrolla-element-anim-1 scroll-animate" data-animate="active">
               <div className="image">
                 <div className="img">
-                  <Link legacyBehavior href="/work-single">
+                  <Link legacyBehavior href="/">
                     <a>
-                      <img
-                        decoding="async"
-                        src="assets/images/work2.jpeg"
-                        alt="Gooir"
-                      />
+                      <img decoding="async" src="assets/images/sites/portfolio.png" alt="port file" />
                       <span className="overlay" />
                     </a>
                   </Link>
                 </div>
               </div>
               <div className="desc">
-                <span className="category"> Branding, UI UX Design </span>
+                <span className="category"> nextJS, Portfolio </span>
                 <h5 className="name">
-                  <Link legacyBehavior href="/work-single">
-                    <a>Gooir</a>
+                  <Link legacyBehavior href="/">
+                    <a>Porfolio Soufian Tamim</a>
                   </Link>
                 </h5>
                 <div className="text">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore.
-                  </p>
+                  <p>Powered by Next.js and React, this showcase reflects my skills in modern web development. Experience seamless navigation and interactive interfaces that demonstrate my proficiency in crafting engaging user experiences. Dive deeper to discover how I blend creativity with technical expertise, creating digital solutions that stand out in the web development.</p>
                 </div>
-                <Link legacyBehavior href="/work-single">
-                  <a className="lnk">See project</a>
+                <Link legacyBehavior href="/">
+                  <a className="lnk">See project online</a>
                 </Link>
               </div>
               <div
@@ -137,40 +143,31 @@ const PortfolioIsotope = ({ noViewMore }) => {
               />
             </div>
           </div>
+
           <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-development sorting-ui-ux-design ">
-            <div
-              className="works-item scrolla-element-anim-1 scroll-animate"
-              data-animate="active"
-            >
+            <div className="works-item scrolla-element-anim-1 scroll-animate" data-animate="active">
               <div className="image">
                 <div className="img">
-                  <Link legacyBehavior href="/work-single">
+                  <Link legacyBehavior href="https://www.maestro45.fr/">
                     <a>
-                      <img
-                        decoding="async"
-                        src="assets/images/work7.jpg"
-                        alt="Explore"
-                      />
+                      <img decoding="async" src="assets/images/sites/maestro.png" alt="Explore" />
                       <span className="overlay" />
                     </a>
                   </Link>
                 </div>
               </div>
               <div className="desc">
-                <span className="category"> Development, UI UX Design </span>
+                <span className="category"> Wordpress , Divi </span>
                 <h5 className="name">
-                  <Link legacyBehavior href="/work-single">
-                    <a>Explore</a>
+                  <Link legacyBehavior href="https://www.maestro45.fr/">
+                    <a>MAESTRO - RESTAURANT </a>
                   </Link>
                 </h5>
                 <div className="text">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore.
-                  </p>
+                  <p>The digital gateway to a culinary adventure! This website, crafted for speed and flavor, invites you to explore a diverse menu featuring quick, savory delights. Immerse yourself in the fusion of culinary excellence and efficiency, where every click unveils a world of gastronomic satisfaction. An online dining experience with Maestro a journey into culinary innovation.</p>
                 </div>
-                <Link legacyBehavior href="/work-single">
-                  <a className="lnk">See project</a>
+                <Link legacyBehavior href="https://www.maestro45.fr/">
+                  <a className="lnk">See project online</a>
                 </Link>
               </div>
               <div
@@ -181,40 +178,31 @@ const PortfolioIsotope = ({ noViewMore }) => {
               />
             </div>
           </div>
+
           <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-branding sorting-photo ">
-            <div
-              className="works-item scrolla-element-anim-1 scroll-animate"
-              data-animate="active"
-            >
+            <div className="works-item scrolla-element-anim-1 scroll-animate" data-animate="active">
               <div className="image">
                 <div className="img">
-                  <Link legacyBehavior href="/work-single">
+                  <Link legacyBehavior href="https://www.meilantherapy.fr/">
                     <a>
-                      <img
-                        decoding="async"
-                        src="assets/images/work1.jpeg"
-                        alt="Mozar"
-                      />
+                      <img decoding="async" src="assets/images/sites/therapy.png" alt="Mozar" />
                       <span className="overlay" />
                     </a>
                   </Link>
                 </div>
               </div>
               <div className="desc">
-                <span className="category"> Branding, Photography </span>
+                <span className="category"> Wordpress , Divi </span>
                 <h5 className="name">
-                  <Link legacyBehavior href="/work-single">
-                    <a>Mozar</a>
+                  <Link legacyBehavior href="https://www.meilantherapy.fr/">
+                    <a>MEÏ-LAN - THÉRAPY</a>
                   </Link>
                 </h5>
                 <div className="text">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore.
-                  </p>
+                  <p>MEÏ-LAN - THÉRAPY: Your haven for holistic well-being. Experience personalized therapies blending ancient practices with modern techniques, guided by skilled practitioners. Embrace self-care and find inner harmony in our transformative space.</p>
                 </div>
-                <Link legacyBehavior href="/work-single">
-                  <a className="lnk">See project</a>
+                <Link legacyBehavior href="https://www.meilantherapy.fr/">
+                  <a className="lnk">See project online</a>
                 </Link>
               </div>
               <div
@@ -225,40 +213,31 @@ const PortfolioIsotope = ({ noViewMore }) => {
               />
             </div>
           </div>
+
           <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-development sorting-ui-ux-design ">
-            <div
-              className="works-item scrolla-element-anim-1 scroll-animate"
-              data-animate="active"
-            >
+            <div className="works-item scrolla-element-anim-1 scroll-animate" data-animate="active">
               <div className="image">
                 <div className="img">
-                  <Link legacyBehavior href="/work-single">
+                  <Link legacyBehavior href="top-demenagement.com">
                     <a>
-                      <img
-                        decoding="async"
-                        src="assets/images/single8.jpg"
-                        alt="Stay Fit"
-                      />
+                      <img decoding="async" src="assets/images/sites/dtd.png" alt="Stay Fit" />
                       <span className="overlay" />
                     </a>
                   </Link>
                 </div>
               </div>
               <div className="desc">
-                <span className="category"> Development, UI UX Design </span>
+                <span className="category"> Wordpress , Divi </span>
                 <h5 className="name">
-                  <Link legacyBehavior href="/work-single">
-                    <a>Stay Fit</a>
+                  <Link legacyBehavior href="top-demenagement.com">
+                    <a>DTD DÉMÉNAGEMENT - TOUTE DISTANCE</a>
                   </Link>
                 </h5>
                 <div className="text">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore.
-                  </p>
+                  <p>DTD DÉMÉNAGEMENT - TOUTE DISTANCE: Your go-to for hassle-free moves, no matter the distance. Our experienced team ensures precision and care, making your relocation stress-free. Trust DTD for a smooth and dedicated moving experience.</p>
                 </div>
-                <Link legacyBehavior href="/work-single">
-                  <a className="lnk">See project</a>
+                <Link legacyBehavior href="top-demenagement.com">
+                  <a className="lnk">See project online</a>
                 </Link>
               </div>
               <div
@@ -269,40 +248,31 @@ const PortfolioIsotope = ({ noViewMore }) => {
               />
             </div>
           </div>
+
           <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-development sorting-photo ">
-            <div
-              className="works-item scrolla-element-anim-1 scroll-animate"
-              data-animate="active"
-            >
+            <div className="works-item scrolla-element-anim-1 scroll-animate" data-animate="active">
               <div className="image">
                 <div className="img">
-                  <Link legacyBehavior href="/work-single">
+                  <Link legacyBehavior href="happypiadalesangles.fr">
                     <a>
-                      <img
-                        decoding="async"
-                        src="assets/images/single6.jpg"
-                        alt="Kana"
-                      />
+                      <img decoding="async" src="assets/images/sites/hp.png" alt="happy piada" />
                       <span className="overlay" />
                     </a>
                   </Link>
                 </div>
               </div>
               <div className="desc">
-                <span className="category"> Development, Photography </span>
+                <span className="category"> Wordpress , Divi </span>
                 <h5 className="name">
-                  <Link legacyBehavior href="/work-single">
-                    <a>Kana</a>
+                  <Link legacyBehavior href="happypiadalesangles.fr">
+                    <a>HAPPY PIADA - LES ANGLES</a>
                   </Link>
                 </h5>
                 <div className="text">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore.
-                  </p>
+                  <p>HAPPY PIADA, your go-to food truck in Vaucluse, brings the taste of Italy to Les Angles. Indulge in delicious and authentic piadinas, where fresh ingredients meet culinary craftsmanship on wheels. Savor a mobile dining experience that combines convenience with the delightful flavors of HAPPY PIADA.</p>
                 </div>
-                <Link legacyBehavior href="/work-single">
-                  <a className="lnk">See project</a>
+                <Link legacyBehavior href="happypiadalesangles.fr">
+                  <a className="lnk">See project online</a>
                 </Link>
               </div>
               <div
@@ -312,7 +282,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
                 }}
               />
             </div>
-          </div> */}
+          </div>
         </div>
         {!noViewMore && (
           <div className="load-more-link">
