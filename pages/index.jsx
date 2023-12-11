@@ -1030,7 +1030,7 @@ const Index = () => {
                     <div className="lui-text">
                       <span>
                         {" "}
-                        <a href="mailto:job@tamimsoufian.com"> job@tamimsoufian.com </a>{" "}
+                        <a href="mailto:soufiant@yahoo.com"> soufiant@yahoo.com </a>{" "}
                       </span>
                     </div>
                   </div>
