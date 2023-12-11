@@ -8,32 +8,72 @@ import {
   testimonialsSliderProps,
 } from "../src/sliderProps";
 
-const SendEmail = () => {
-      Email.send({
-        Host : "smtp.elasticemail.com",
-        Username : "tamim.soufian.solicode@gmail.com",
-        Password : "70D178ACADD0DBD76A3F21E22CC24372EB65",
-        To : 'job@tamimsoufian.com',
-        From : 'tamim.soufian.solicode@gmail.com',
-        Subject : "New contact from the portfolio",
-        Body : "NAME : " + document.getElementById('name').value +
-        " <br> EMAIL : " + document.getElementById('email').value +
-        " <br> SUBJECT : " +  document.getElementById('subject').value + 
-        " <br> MESSAGE : " + document.getElementById('message').value 
 
-        
-    }).then(
-   
 
-      message => alert(message)
+import { useForm, ValidationError } from "@formspree/react";
+function ContactForm() {
+  const [state, handleSubmit] = useForm("xpzgvkzl");
+
+  if (state.succeeded) {
+    return (
+      <div className="alert-success">
+        <p>Thanks, your message is sent successfully.</p>
+      </div>
     );
+  }
 
-    console.log("NAME : " + document.getElementById('name').value +
-    " <br> EMAIL : " + document.getElementById('email').value +
-    " <br> SUBJECT : " +  document.getElementById('subject').value + 
-    " <br> MESSAGE : " + document.getElementById('message').value  )
-};
-
+  return (
+    <form onSubmit={handleSubmit} id="cform">
+      <div className="row">
+        <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+          <div className="group">
+            <label htmlFor="name">
+              Your Full Name <b>*</b>
+            </label>
+            <input type="text" id="name" name="name" disabled={state.submitting} />
+            <ValidationError prefix="Name" field="name" errors={state.errors} />
+          </div>
+        </div>
+        <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+          <div className="group">
+            <label htmlFor="email">
+              Your Email Address <b>*</b>
+            </label>
+            <input type="email" id="email" name="email" disabled={state.submitting} />
+            <ValidationError prefix="Email" field="email" errors={state.errors} />
+          </div>
+        </div>
+        <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <div className="group">
+            <label htmlFor="subject">
+              Your Subject <b>*</b>
+            </label>
+            <input type="text" id="subject" name="subject" disabled={state.submitting} />
+            <ValidationError prefix="Subject" field="subject" errors={state.errors} />
+          </div>
+        </div>
+        <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <div className="group">
+            <label htmlFor="message">
+              Your Message <b>*</b>
+            </label>
+            <textarea id="message" name="message" disabled={state.submitting} />
+            <ValidationError prefix="Message" field="message" errors={state.errors} />
+          </div>
+        </div>
+        <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 align-right">
+          <div className="terms-label">* Accept the terms and conditions.</div>
+          <button type="submit" disabled={state.submitting}>
+            <span> Contact Me </span>
+          </button>
+          {/* <div className="lui-bgtitle">
+            <span> Contact Me </span>
+          </div> */}
+        </div>
+      </div>
+    </form>
+  );
+}
 
 
 const PortfolioIsotope = dynamic(
@@ -1031,56 +1071,10 @@ const Index = () => {
                     }}
                   />
                   <div className="contacts-form">
-                    <form onSubmit={handleSubmit} id="cform">
-                      <div className="row">
-                        <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                          <div className="group">
-                            <label>
-                              Your Full Name <b>*</b>
-                              <input type="text" name="name" id="name" />
-                            </label>
-                          </div>
-                        </div>
-                        <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                          <div className="group">
-                            <label>
-                              Your Email Address <b>*</b>
-                              <input type="email" id="email" name="email" />
-                            </label>
-                          </div>
-                        </div>
-                        <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                          <div className="group">
-                            <label>
-                              Your Subject <b>*</b>
-                              <input type="text" name="subject" id="subject" />
-                            </label>
-                          </div>
-                        </div>
-                        <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                          <div className="group">
-                            <label>
-                              Your Message <b>*</b>
-                              <textarea name="message" id="message" defaultValue={""} />
-                            </label>
-                          </div>
-                        </div>
-                        <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 align-right">
-                          <div className="terms-label">* Accept the terms and conditions.</div>
-
-                          <button type="submit">Send Message</button>
-                        </div>
-                      </div>
-                    </form>
-                    <div className="alert-success" style={{ display: "none" }}>
-                      <p>Thanks, your message is sent successfully.</p>
-                    </div>
+                    <ContactForm />
                   </div>
                 </div>
               </div>
-            </div>
-            <div className="lui-bgtitle">
-              <span> Contact Me </span>
             </div>
           </div>
         </div>

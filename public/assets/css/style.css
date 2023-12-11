@@ -996,6 +996,8 @@ hr {
 .alert-success {
 	color: green;
 	font-size: 18px;
+	padding: 23px 30px;
+    margin: 115px;
 }
 
 
