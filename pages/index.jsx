@@ -3,12 +3,7 @@ import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Resume from "../src/components/Resume";
 import Layout from "../src/layouts/Layout";
-import {
-  servicesSliderProps,
-  testimonialsSliderProps,
-} from "../src/sliderProps";
-
-
+import { servicesSliderProps, testimonialsSliderProps } from "../src/sliderProps";
 
 import { useForm, ValidationError } from "@formspree/react";
 function ContactForm() {
@@ -75,21 +70,14 @@ function ContactForm() {
   );
 }
 
-
-const PortfolioIsotope = dynamic(
-  () => import("../src/components/PortfolioIsotope"),
-  {
-    ssr: false,
-  }
-);
+const PortfolioIsotope = dynamic(() => import("../src/components/PortfolioIsotope"), {
+  ssr: false,
+});
 const Index = () => {
-
-
   const handleSubmit = (event) => {
     event.preventDefault();
     SendEmail();
   };
-
 
   return (
     <Layout pageClassName={"home"}>
@@ -134,7 +122,7 @@ const Index = () => {
                   </div>
                 </div>
                 <div className="bts">
-                  <a target="_blank" href="https://drive.google.com/file/d/1wdzJMxPxI5-f2jXBCJgFqmBX55CdfAhd/view?usp=sharing" className="btn">
+                  <a target="_blank" href="https://drive.google.com/file/d/1YY4ZztyNiJbwT5yMeN2VWa2QcBE0Vxre/view?usp=sharing" className="btn">
                     <span>Download CV</span>
                   </a>
                   <a href="#skills-section" className="btn-lnk">
