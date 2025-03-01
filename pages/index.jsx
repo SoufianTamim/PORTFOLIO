@@ -1014,7 +1014,7 @@ const Index = () => {
                       <i aria-hidden="true" className="far fa-user" />
                     </div>
                     <div className="title">
-                      <span> Freelance </span>
+                      <span> Freelance Or Contract</span>
                     </div>
                     <div className="lui-text">
                       <span> Available Right Now </span>
