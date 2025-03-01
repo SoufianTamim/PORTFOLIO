@@ -122,7 +122,7 @@ const Index = () => {
                   </div>
                 </div>
                 <div className="bts">
-                  <a target="_blank" href="https://drive.google.com/file/d/1ylmgQ6xU4gVw8eN5i12ZcsuMf74wGKnX/view?usp=sharing" className="btn">
+                  <a target="_blank" href="https://docs.google.com/document/d/1bIrbD5LVQo7KmOEkccCZAIH-OE5XpuaFgxSzGoyNtPQ/edit?tab=t.0" className="btn">
                     <span>Download CV</span>
                   </a>
                   <a href="#skills-section" className="btn-lnk">
