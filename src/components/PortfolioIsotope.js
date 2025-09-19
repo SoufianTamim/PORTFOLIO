@@ -284,6 +284,9 @@ const PortfolioIsotope = ({ noViewMore }) => {
             </div>
           </div>
         </div>
+        <h5 className="splitting-text-anim-1 scroll-animate" style={{ textAlign: "center", marginTop: "50px" }} data-splitting="words" data-animate="active">
+          <p>Most of these projects were built during my studies and in my free time. As for company projects, I signed confidentiality agreements, so I can’t showcase them publicly in my portfolio.</p>
+        </h5>
         {!noViewMore && (
           <div className="load-more-link">
             <Link legacyBehavior href="https://github.com/SoufianTamim?tab=repositories" target="_blank">

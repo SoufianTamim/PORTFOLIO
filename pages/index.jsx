@@ -23,7 +23,7 @@ function ContactForm() {
         <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6">
           <div className="group">
             <label htmlFor="name">
-              Your Full Name <b>*</b>
+              Name <b>*</b>
             </label>
             <input type="text" id="name" name="name" disabled={state.submitting} />
             <ValidationError prefix="Name" field="name" errors={state.errors} />
@@ -32,7 +32,7 @@ function ContactForm() {
         <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6">
           <div className="group">
             <label htmlFor="email">
-              Your Email Address <b>*</b>
+              Email Address <b>*</b>
             </label>
             <input type="email" id="email" name="email" disabled={state.submitting} />
             <ValidationError prefix="Email" field="email" errors={state.errors} />
@@ -41,7 +41,7 @@ function ContactForm() {
         <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
           <div className="group">
             <label htmlFor="subject">
-              Your Subject <b>*</b>
+              Subject <b>*</b>
             </label>
             <input type="text" id="subject" name="subject" disabled={state.submitting} />
             <ValidationError prefix="Subject" field="subject" errors={state.errors} />
@@ -50,14 +50,14 @@ function ContactForm() {
         <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
           <div className="group">
             <label htmlFor="message">
-              Your Message <b>*</b>
+              Message <b>*</b>
             </label>
             <textarea id="message" name="message" disabled={state.submitting} />
             <ValidationError prefix="Message" field="message" errors={state.errors} />
           </div>
         </div>
         <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 align-right">
-          <div className="terms-label">* Accept the terms and conditions.</div>
+          <div className="terms-label">* Just click no worries :) </div>
           <button type="submit" disabled={state.submitting}>
             <span> Contact Me </span>
           </button>
@@ -102,15 +102,15 @@ const Index = () => {
                   </h1>
                   <div className="label lui-subtitle">
                     {" "}
-                    I am a <strong>Web Developer</strong>
+                    I am a passionate <strong>Web Developer</strong>
                   </div>
                 </div>
                 <div className="description">
                   <div>
-                    <p>I am a web developer specializing in PHP, Laravel, and React. I have a wealth of experience in web development and I am particularly passionate about building dynamic web applications. I would love to discuss how I can contribute to your company and bring my expertise to your team.</p>
+                    <p>I build cool stuff with PHP, Laravel, and React. If it’s broken, I’ll fix it; if it doesn’t exist, I’ll code it. Let’s create something awesome together!</p>
                   </div>
                   <div className="social-links">
-                    <a target="_blank" rel="nofollow" href="https://www.linkedin.com/in/soufian-tamim/">
+                    <a target="_blank" rel="nofollow" href="https://www.linkedin.com/in/soufiantamim/">
                       <i aria-hidden="true" className="fab fa-linkedin" />
                     </a>
                     <a target="_blank" rel="nofollow" href="#">
@@ -132,7 +132,7 @@ const Index = () => {
                 </div>
               </div>
               <div className="slide scrolla-element-anim-1 scroll-animate" data-animate="active">
-                <img decoding="async" src="assets/images/pro-2.png" alt="my image" />
+                <img decoding="async" src="assets/images/face-soufian.png" alt="my image" />
                 <span className="circle circle-1" />
                 <span
                   className="circle img-1"
@@ -163,7 +163,7 @@ const Index = () => {
                       </span>
                     </li>
                     <li>
-                      <span className="num">12</span>
+                      <span className="num">12 +</span>
                       <span className="value">
                         Completed <strong>Projects</strong>
                       </span>
@@ -446,6 +446,9 @@ const Index = () => {
                 </div>
               </div>
             </div>
+            <h5 className="splitting-text-anim-1 scroll-animate" style={{ textAlign: "center" }} data-splitting="words" data-animate="active">
+              <span> These skills aren’t set in stone — technology keeps evolving, and so do I. I’m always ready to learn new tools, pick up fresh skills, and enjoy the journey of growing as a developer.</span>
+            </h5>
             <div className="lui-bgtitle">
               <span> Skills </span>
             </div>
@@ -1044,7 +1047,7 @@ const Index = () => {
                     <div className="lui-text">
                       <span>
                         {" "}
-                        <a href="tel:+212677846064"> +212 6 77 84 60 64 </a>
+                        <a href="tel:+212663104389"> +212 6 63 10 43 89 </a>
                       </span>
                     </div>
                   </div>

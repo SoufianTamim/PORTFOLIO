@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Link from "next/link";
 
 const educationData = [
   {
@@ -63,18 +64,10 @@ const Resume = () => {
       <div className="lui-heading">
         <div className="container">
           <div className="m-titles align-center">
-            <h2
-              className="m-title splitting-text-anim-1 scroll-animate"
-              data-splitting="words"
-              data-animate="active"
-            >
+            <h2 className="m-title splitting-text-anim-1 scroll-animate" data-splitting="words" data-animate="active">
               <span> Resume </span>
             </h2>
-            <div
-              className="m-subtitle splitting-text-anim-1 scroll-animate"
-              data-splitting="words"
-              data-animate="active"
-            >
+            <div className="m-subtitle splitting-text-anim-1 scroll-animate" data-splitting="words" data-animate="active">
               <span>
                 {" "}
                 my <b>Story</b>
@@ -88,31 +81,13 @@ const Resume = () => {
         <div className="container">
           <div className="row">
             <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-              <h5
-                className="history-title scrolla-element-anim-1 scroll-animate"
-                data-animate="active"
-              >
+              <h5 className="history-title scrolla-element-anim-1 scroll-animate" data-animate="active">
                 <span> Education </span>
               </h5>
               <div className="history-items">
                 {educationData.map((education, i) => (
-                  <div
-                    key={education.id}
-                    className={`history-item lui-collapse-item scroll-animate ${
-                      educationToggle === education.id ? "opened" : ""
-                    }`}
-                    data-animate="active"
-                  >
-                    <h6
-                      className={`name lui-collapse-btn ${
-                        educationToggle == education.id ? "active" : ""
-                      }`}
-                      onClick={() =>
-                        setEducationToggle(
-                          educationToggle == education.id ? null : education.id
-                        )
-                      }
-                    >
+                  <div key={education.id} className={`history-item lui-collapse-item scroll-animate ${educationToggle === education.id ? "opened" : ""}`} data-animate="active">
+                    <h6 className={`name lui-collapse-btn ${educationToggle == education.id ? "active" : ""}`} onClick={() => setEducationToggle(educationToggle == education.id ? null : education.id)}>
                       <span> {education.academy} </span>
                     </h6>
                     <div className="history-content">
@@ -136,27 +111,13 @@ const Resume = () => {
               </div>
             </div>
             <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-              <h5
-                className="history-title scrolla-element-anim-1 scroll-animate"
-                data-animate="active"
-              >
+              <h5 className="history-title scrolla-element-anim-1 scroll-animate" data-animate="active">
                 <span> Experience </span>
               </h5>
               <div className="history-items">
                 {experienceData.map((experience) => (
-                  <div
-                    className={`history-item lui-collapse-item scroll-animate ${
-                      experience.id == experienceToggle ? "opened" : ""
-                    }`}
-                    data-animate="active"
-                    key={experience.id}
-                  >
-                    <h6
-                      className={`name lui-collapse-btn ${
-                        experienceToggle == experience.id ? " active" : ""
-                      }`}
-                      onClick={() => setExperienceToggle(experience.id)}
-                    >
+                  <div className={`history-item lui-collapse-item scroll-animate ${experience.id == experienceToggle ? "opened" : ""}`} data-animate="active" key={experience.id}>
+                    <h6 className={`name lui-collapse-btn ${experienceToggle == experience.id ? " active" : ""}`} onClick={() => setExperienceToggle(experience.id)}>
                       <span> {experience.title} </span>
                     </h6>
                     <div className="history-content">
@@ -166,12 +127,7 @@ const Resume = () => {
                       <div className="date lui-subtitle">
                         <span>
                           {" "}
-                          {experience.startYear} -{" "}
-                          {experience.endYear ? (
-                            experience.endYear
-                          ) : (
-                            <b>Present</b>
-                          )}
+                          {experience.startYear} - {experience.endYear ? experience.endYear : <b>Present</b>}
                         </span>
                       </div>
                       <div className="text">
@@ -185,6 +141,15 @@ const Resume = () => {
               </div>
             </div>
           </div>
+          
+            <div className="load-more-link">
+              <Link legacyBehavior href="to link to certificates" target="_blank">
+                <a className="btn scrolla-element-anim-1 scroll-animate" data-animate="active">
+                  <span>See my certifications :)</span>
+                </a>
+              </Link>
+            </div>
+          
           <div className="lui-bgtitle">
             <span> History </span>
           </div>
